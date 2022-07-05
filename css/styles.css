@@ -120,6 +120,7 @@ ul {
   color: var(--title-text-color);
   background-color: #f5f4fa;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
