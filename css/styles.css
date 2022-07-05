@@ -13,7 +13,6 @@
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.71;
 }
 .list {
   list-style: none;
@@ -64,8 +63,7 @@
 }
 /* contacts */
 .contact-link {
-  text-decoration: none;
-
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
@@ -75,7 +73,7 @@
 .contact-link:focus {
   color: var(--accent-text-color);
 }
-/* main part */
+/* main page */
 /* sections */
 .feature-title {
   color: var(--title-text-color);
@@ -89,22 +87,19 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
 }
 .list-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 .list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
-  text-align: center;
 }
-/* buttons */
+/* buttons main page */
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
@@ -113,19 +108,42 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
+/* portfolio button */
 .list .button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 .list .button:hover,
 .list .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
 }
+/* portfolio projects*/
+.project-link {
+  text-decoration: none;
+}
+.project-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
 /* footer colors */
 .text-white {
   color: var(--primary-white-color);
